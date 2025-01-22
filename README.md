@@ -22,17 +22,18 @@ I'm using this mostly with Google Gemini AI since this is the only engine that s
 
 # Configurable
 // Specify output filename
-$outputFile = "$rootDirectory/combined.txt";
+`$outputFile = "$rootDirectory/combined.txt";`
 
 // Specify the file extensions to include
-$allowedExtensions = ['php', 'js', 'css', 'html', 'json', 'lock'];
+`$allowedExtensions = ['php', 'js', 'css', 'html', 'json', 'lock'];`
 
 // Specify the directories and filenames to ignore
-$ignoredDirectories = ['vendor', 'node_modules', 'storage', 'bootstrap/cache', '.git', 'tests'];
-$ignoredFilenames = ['combiner.php', 'run.php', 'combined.txt'];
+`$ignoredDirectories = ['vendor', 'node_modules', 'storage', 'bootstrap/cache', '.git', 'tests'];
+$ignoredFilenames = ['combiner.php', 'run.php', 'combined.txt'];`
 
 
 If this script did help you, please consider to buy me a coffee :-)
-https://sociabuzz.com/ewallzdev/donate
-![Static Badge](https://img.shields.io/badge/buyme-coffee-brightgreen?link=https%3A%2F%2Fsociabuzz.com%2Fewallzdev%2Fdonate)
+
+
+![Static Badge](https://img.shields.io/badge/buyme-coffee-brightgreen) https://sociabuzz.com/ewallzdev/donate
 
